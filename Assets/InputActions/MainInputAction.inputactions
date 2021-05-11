@@ -1,0 +1,52 @@
+{
+    "name": "MainInputAction",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "e99fc6d4-b0f0-45cc-81b1-09cfb81c7072",
+            "actions": [
+                {
+                    "name": "Drag",
+                    "type": "Button",
+                    "id": "531b73c3-9db3-4ba2-8411-cf968b05f758",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseWheel",
+                    "type": "Value",
+                    "id": "93b0f540-d3e6-4060-9c1d-ee181fae90cd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ce26f860-fb07-4a6c-80cb-b565c56c33c3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aeb5251e-4e6b-4930-ba77-908da5a8d9e7",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
